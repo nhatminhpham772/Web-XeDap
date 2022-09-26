@@ -15,7 +15,7 @@ namespace BikeStoreWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "";
+            ViewBag.Message = "abc";
 
             return View();
         }
